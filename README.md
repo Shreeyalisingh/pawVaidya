@@ -33,7 +33,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/vaibhav-0310/pawvaidya.git
+git clone https://github.com/Shreeyalisingh/pawvaidya.git
 cd pawvaidya
 
 # Install server dependencies
