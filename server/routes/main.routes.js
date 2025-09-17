@@ -10,4 +10,13 @@ router.get('/auth-status', (req, res) => {
   }
 });
 
+router.get("/traffic", (req, res) => {
+  const clientIp = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+  res.send(`Your IP address is: ${clientIp}`);
+});
+
+router.get("/protected", isLoggedIn, (req, res) => {
+  res.send("This is a protected route. You are logged in.");
+});
+
 export default router;
