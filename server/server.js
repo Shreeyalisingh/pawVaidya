@@ -45,6 +45,8 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(express.urlencoded({ extended: true , limit: "50mb"}));
 app.use(express.json({limit: "50mb"})); 
 app.use(cookieParser());
+// Trust proxy for correct client IP detection
+app.set('trust proxy', true);
 app.use(
   session({
     secret: process.env.SESSION_SECRET || "random",
@@ -197,6 +199,7 @@ if (fs.existsSync(distPath)) {
   const indexPath = path.join(distPath, 'index.html');
   if (fs.existsSync(indexPath)) {
     app.get(/^\/(?!api).*/, (req, res) => {
+      
       res.sendFile(indexPath);
     });
   }
