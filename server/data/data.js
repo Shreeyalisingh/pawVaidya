@@ -1,52 +1,52 @@
- const essentialsData = [
+const data = [
      {
-    title: "Flea & Tick Control Spray",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677f795babe2d79dd55508c6_Frame%202147226740.webp",
+    title: "Immunity Boost Supplement",
+    image: "https://i.ibb.co/tWXh4nN/immunityboosing.jpg", // Placeholder URL
     price: 499,
-    type: "Healthcare"
+    type: "Supplement"
   },
   {
-    title: "Dog Multivitamin Soft Chews",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677c581237d84025e9ac7737_Frame%202147226728.webp",
+    title: "All-Day Energy Multivitamin",
+    image: "https://i.ibb.co/ccVrQsGT/alldayenergy.jpg", // Placeholder URL
     price: 699,
     type: "Supplement"
   },
   {
-    title: "Cat Deworming Syrup",
-    image: "  https://cdn.prod.website-files.com/67607a4da94c236117377c10/677c584a367edf5408fada2f_Frame%202147226730.webp",
+    title: "Sleep Aid Melatonin Gummies",
+    image: "https://i.ibb.co/p6ypt37Y/sleepaid.jpg",
     price: 299,
-    type: "Medicine"
+    type: "Rest & Recovery"
   },
   {
-    title: "Ear Cleaning Solution for Pets",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677f79a27f64252e76d64d31_Frame%202147226742.webp",
+    title: "Daily Probiotic Capsules",
+    image: "https://i.ibb.co/1wc6frN/probiotic.jpg", // Placeholder URL
     price: 399,
+    type: "Digestive Health"
+  },
+  {
+    title: "Antiseptic Hand Sanitizer Gel (Large)",
+    image: "https://i.ibb.co/WNKq8V6j/sanitizer.jpg", // Placeholder URL
+    price: 450,
     type: "Hygiene"
   },
   {
-    title: "Antiseptic Wound Spray",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677f795babe2d79dd55508c6_Frame%202147226740.webp",
-    price: 450,
+    title: "First Aid Kit - Home & Travel",
+    image: "https://i.ibb.co/sdH3SVFH/firstaidkit.jpg", // Placeholder URL
+    price: 349,
     type: "First Aid"
   },
   {
-    title: "Pet Toothbrush & Paste Kit",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677f79a27f64252e76d64d31_Frame%202147226742.webp",
-    price: 349,
-    type: "Dental Care"
-  },
-  {
-    title: "Calming Chews for Dogs",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677f797dfb622a085d04c312_Frame%202147226741.webp",
+    title: "Stress Relief Lavender Essential Oil",
+    image: "https://i.ibb.co/r2TqhNv4/oil.jpg", // Placeholder URL
     price: 599,
-    type: "Behavioral"
+    type: "Aromatherapy"
   },
   {
-    title: "Tick Remover Tool Kit",
-    image: "https://cdn.prod.website-files.com/67607a4da94c236117377c10/677c581237d84025e9ac7737_Frame%202147226728.webp",
+    title: "Digital Thermometer for Adults",
+    image: "https://i.ibb.co/DPChf5J2/thermometer.jpg", // Placeholder URL
     price: 199,
     type: "Tools"
   }
   ];
 
-  export default essentialsData;
+  export default data;

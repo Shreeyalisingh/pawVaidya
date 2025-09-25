@@ -9,11 +9,11 @@ function Hero() {
             <br></br>
             <span style={{ fontSize: "50px", fontWeight: "bold" }}>
               Products for your&nbsp;
-              <span className="back">pets</span>
+              <span className="back">health</span>
             </span>
             <br />
             <br />
-            Quality products for your beloved pets.
+            Quality products for your beloved people.
             <br />
         </div>
         </>

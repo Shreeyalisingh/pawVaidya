@@ -57,7 +57,7 @@ function CreateBlog() {
   return (
     <>
     <div className="container mt-5">
-      <h2 className="text-center mb-4">🩺 Create a Vet Blog Post</h2>
+      <h2 className="text-center mb-4">🩺 Create a Health Blog Post</h2>
 
       <form className="border p-4 shadow rounded mb-5 bg-light" onSubmit={handleSubmit}>
         <div className="mb-3">
@@ -119,7 +119,7 @@ function CreateBlog() {
       </form>
 
       <div>
-        <h3 className="mb-3">🐾 Recent Blog Posts</h3>
+        <h3 className="mb-3">Recent Blog Posts</h3>
         {blogs.length === 0 ? (
           <p>No blogs posted yet.</p>
         ) : (

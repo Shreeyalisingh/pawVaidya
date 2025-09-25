@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import login from "../../assests/login.svg";
+import login from "../../assests/login.png";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";

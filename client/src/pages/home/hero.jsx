@@ -1,6 +1,6 @@
 import React from "react";
-import hero from "../../assests/hero1.webp";
-import dog from "../../assests/dog.webp";
+import hero from "../../assests/hero1.png";
+import dog from "../../assests/dog.png";
 
 function Hero() {
   return (
@@ -8,18 +8,18 @@ function Hero() {
       <div className="container hero">
         <div className="row">
           <div className="col-12 col-lg-6 hero-left">
-            &#128308; Vertic pet solutions
+            &#128308; Healthcare solutions
             <br />
             <br></br>
             <span style={{ fontSize: "50px", fontWeight: "bold" }}>
               Your reliable
-              <br /> partner for pet <br />
+              <br /> partner for your <br />
               <span className="back">wellness</span>
             </span>
             <br />
             <br />
             At our clinic, we prioritize the health and happiness of your
-            <br /> beloved pets. Our expert veterinarians are dedicated to
+            <br /> and your beloved partners. Our expert doctors are dedicated to
             <br /> providing love.<br></br>
             <br />
             <div className="button-wrapper" style={{ width: "fit-content" }}>
@@ -47,7 +47,7 @@ function Hero() {
           <div className="col-12 col-lg-6 d-none d-sm-block hero-right">
             <div className="row">
               <div className="col-2">
-                <img src={dog} className="hero-dog"/>
+                <img src={dog} className="hero-dog" style={{borderRadius:"30px"}}/>
               </div>
               <div className="col-10">
                 <img src={hero} className="hero-img" />

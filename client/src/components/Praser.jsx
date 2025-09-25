@@ -117,7 +117,7 @@ function Parser() {
                 <br />
                 <br />
                 <span style={{ fontSize: "50px", fontWeight: "bold" }}>
-                  Chat with Paw<span className="back">Vaidya</span>
+                  Chat with <span className="back">Vaidya</span>
                 </span>
                 <br />
                 <br />

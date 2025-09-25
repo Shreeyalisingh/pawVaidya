@@ -11,7 +11,7 @@ function Container() {
           <span className="front">Our trusted </span>
           <span className="back">team</span>
         </span><br></br><br/>
-         Committed to offering loving care for your pets while proudly<br/> serving our community.
+         Committed to offering loving care for you while proudly<br/> serving our community.
         <br />
         <br />
       </div>

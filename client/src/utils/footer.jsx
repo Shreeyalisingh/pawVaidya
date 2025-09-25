@@ -1,5 +1,5 @@
 import React from 'react';
-import Paw from "../assests/paw.svg";
+import Paw from "../assests/mark.png";
 import Gallery from './gallery';
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
                             alt="Logo" 
                             style={{color:"pink", height:"50px"}} 
                         />
-                        <span className="fw-bold fs-5">PawVadiya</span>
+                        <span className="fw-bold fs-5">Vadiya</span>
                     </div>
                 </div>
 
@@ -37,13 +37,13 @@ function Footer() {
                     <h5 className="mb-3">Services</h5>
                     <ul className="list-unstyled">
                         <li className="mb-2">
-                            <a href="#" className="text-decoration-none text-light">Pet Adoption</a>
+                            <a href="#" className="text-decoration-none text-light">Online Consultation</a>
                         </li>
                         <li className="mb-2">
-                            <a href="#" className="text-decoration-none text-light">Pet Care</a>
+                            <a href="#" className="text-decoration-none text-light">Emergency Care</a>
                         </li>
                         <li className="mb-2">
-                            <a href="#" className="text-decoration-none text-light">Training</a>
+                            <a href="#" className="text-decoration-none text-light">24/7 Support</a>
                         </li>
                     </ul>
                 </div>
@@ -86,7 +86,7 @@ function Footer() {
             </div>
             <div className="row mt-4 pt-4 ">
                 <div className="col-12 start">
-                    <p className="mb-0">&copy; 2025 PawVadiya. All rights reserved.</p>
+                    <p className="mb-0">&copy; 2025 Vadiya. All rights reserved.</p>
                 </div>
             </div>
         </div>

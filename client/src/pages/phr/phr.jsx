@@ -130,14 +130,14 @@ function Phr() {
           <div className="row mb-5">
             <div className="col-12">
               <div className="text-center mb-4">
-                &#128308; Vet Docs
+                &#128308; Health Docs
             <br />
             <br></br>
             <span style={{ fontSize: "50px", fontWeight: "bold" }}>
                Personal Health <span className="back">Records</span>
               
             </span><br/><br/>
-           Securely upload and manage your pet's medical documents 
+           Securely upload and manage your medical documents 
                
               </div>
             </div>

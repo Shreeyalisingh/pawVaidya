@@ -21,6 +21,8 @@ import VetChat from "./components/VetChat";
 import Parser from "./components/Praser";
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoutes';
+import Models from "./pages/models/Models";
+import Diabetes from "./utils/models/Diabetes";
 
 
 function App() {
@@ -43,7 +45,10 @@ function App() {
           <Route path="/essentials" element={<Essentials />} />
           <Route path="/vet" element={<Vet />} />
           <Route path="/create/blog" element={<CreateBlog />} /> 
-          
+          <Route path="/ml-models" element={<Models />} />
+          <Route path="/ml-models/diabetes" element={<Diabetes />} />
+          {/* Protected Routes */}
+
           <Route element={<ProtectedRoute />}>
             <Route path="/cart" element={<Cart />} />
             <Route path="/parser" element={<Parser />} />

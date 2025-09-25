@@ -3,7 +3,7 @@ import axios from "axios";
 import {Link} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
-import image from "../../assests/image.svg";
+import image from "../../assests/image.png";
 import Footer from "../../utils/footer.jsx";
 
 function Login() {

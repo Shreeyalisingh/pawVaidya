@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
-import logo from "../assests/logo.svg";
+import logo from "../assests/logo.png";
 import axios from "axios";
 import { useCallback } from "react";
 import { toast } from "react-toastify";
@@ -81,7 +81,7 @@ const logout = useCallback((e) => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/vet">
-                  Consult a Vet
+                  Consult a Doc
                 </Link>
               </li>
               <li className="nav-item">
@@ -92,6 +92,11 @@ const logout = useCallback((e) => {
                <li className="nav-item">
                 <Link className="nav-link" to="/parser">
                   Q&A
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ml-models">
+                  Predict
                 </Link>
               </li>
             </ul>
